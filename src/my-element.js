@@ -22,9 +22,10 @@ export class MyElement extends LitElement {
     };
   }
 
-  // createRenderRoot() {
-  //   return this;
-  // }
+  // Esto es lo que deja usar los estilos de bootstrap
+  createRenderRoot() {
+    return this;
+  }
 
   constructor() {
     super();
